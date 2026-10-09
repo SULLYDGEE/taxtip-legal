@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TaxTip · Confidentialité et aide</title>
+<style>
+  :root { --bg: #ffffff; --fg: #15171c; --muted: #5b6270; --rule: #dfe2dc; --accent: #0e7458; color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111317; --fg: #e8eae6; --muted: #9aa2ad; --rule: #2c3138; --accent: #4cc39b; color-scheme: dark; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { font-size: 1.3rem; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.05rem; margin: 24px 0 4px; }
+  p, li { max-width: 68ch; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 16px 0 0; }
+  .lang { margin-top: 56px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>TaxTip</h1>
+  <p class="muted">Taxes, pourboire et partage de l'addition, au Canada et aux États-Unis. Dernière mise à jour : 9 octobre 2026.</p>
+  <nav>
+    <a href="#confidentialite">Confidentialité</a>
+    <a href="#aide">Aide</a>
+    <a href="#privacy">Privacy (English)</a>
+    <a href="#help">Help (English)</a>
+  </nav>
+
+  <h2 id="confidentialite">Politique de confidentialité</h2>
+  <p>TaxTip ne collecte aucune donnée personnelle. L'app n'a ni compte, ni serveur, ni publicité, ni outil de mesure d'audience.</p>
+  <h3>Ce qui reste sur votre iPhone</h3>
+  <p>Vos réglages et l'historique des calculs que vous choisissez de sauvegarder sont enregistrés uniquement sur votre appareil. Ils ne sont envoyés à personne, y compris à l'éditeur. Ils disparaissent si vous effacez l'historique dans l'app ou si vous supprimez l'app.</p>
+  <h3>Réseau</h3>
+  <p>Les calculs se font hors ligne. L'app n'utilise Internet que si vous ouvrez vous-même un lien, par exemple cette page.</p>
+  <h3>Partage et notes</h3>
+  <p>Quand vous partagez un résultat, c'est le menu de partage d'iOS qui l'envoie, vers l'app que vous choisissez. Quand l'app propose de la noter, c'est la fenêtre d'Apple qui s'affiche ; TaxTip ne reçoit ni votre note ni votre identité.</p>
+  <h3>Enfants</h3>
+  <p>L'app ne cible pas les enfants et ne collecte aucune donnée, quel que soit l'âge de l'utilisateur.</p>
+  <h3>Contact</h3>
+  <p>Pour toute question sur cette politique : <span id="contact-fr"><a href="mailto:solimon.gerson@gmail.com">solimon.gerson@gmail.com</a></span>.</p>
+
+  <h2 id="aide">Aide</h2>
+  <h3>D'où viennent les taux ?</h3>
+  <p>Canada : table des taux de TPS, TVH et TVP de l'Agence du revenu du Canada. États-Unis : taxe de l'État plus la taxe locale moyenne de l'État, selon la Tax Foundation. La date de vérification est affichée dans l'app, sous chaque calcul et dans les réglages.</p>
+  <h3>Pourquoi le taux américain diffère-t-il de mon reçu ?</h3>
+  <p>La taxe locale varie d'une ville à l'autre. TaxTip utilise la moyenne de l'État : le montant exact peut différer de quelques dixièmes de pour cent.</p>
+  <h3>Restaurant ou magasin ?</h3>
+  <p>En Colombie-Britannique, les repas au restaurant ne paient pas la TVP de 7 %. Choisissez « Restaurant » pour une addition, « Magasin » pour un achat. L'alcool reste taxé à 10 % de TVP, ce que TaxTip ne compte pas, puisqu'il ne connaît pas le détail de votre facture.</p>
+  <h3>Pourboire avant ou après taxes ?</h3>
+  <p>Par défaut, TaxTip calcule le pourboire sur le montant avant taxes. Un interrupteur permet de le calculer sur le total taxes comprises.</p>
+  <h3>Un taux vous semble faux ?</h3>
+  <p>Écrivez-nous en indiquant la province ou l'État, et la source du bon taux : <span id="contact-fr-2"><a href="mailto:solimon.gerson@gmail.com">solimon.gerson@gmail.com</a></span>.</p>
+  <p class="muted">TaxTip donne une estimation. Il ne remplace pas un avis fiscal.</p>
+
+  <div class="lang" lang="en">
+    <h2 id="privacy">Privacy policy</h2>
+    <p>TaxTip does not collect any personal data. The app has no account, no server, no ads and no analytics.</p>
+    <h3>What stays on your iPhone</h3>
+    <p>Your settings and the calculations you choose to save are stored only on your device. They are never sent to anyone, including the developer. They are removed when you clear the history in the app or delete the app.</p>
+    <h3>Network</h3>
+    <p>Calculations work offline. The app only uses the internet when you open a link yourself, such as this page.</p>
+    <h3>Sharing and ratings</h3>
+    <p>When you share a result, the iOS share sheet sends it to the app you pick. When the app asks for a rating, Apple's own prompt appears; TaxTip receives neither your rating nor your identity.</p>
+    <h3>Children</h3>
+    <p>The app is not directed at children and collects no data from any user.</p>
+    <h3>Contact</h3>
+    <p>Questions about this policy: <span id="contact-en"><a href="mailto:solimon.gerson@gmail.com">solimon.gerson@gmail.com</a></span>.</p>
+
+    <h2 id="help">Help</h2>
+    <h3>Where do the rates come from?</h3>
+    <p>Canada: GST, HST and PST rates published by the Canada Revenue Agency. United States: state tax plus the state's average local tax, from the Tax Foundation. The date the rates were checked is shown in the app.</p>
+    <h3>Why does the US rate differ from my receipt?</h3>
+    <p>Local tax varies by city. TaxTip uses the state average, so the exact amount may differ by a few tenths of a percent.</p>
+    <h3>Restaurant or store?</h3>
+    <p>In British Columbia, restaurant meals are exempt from the 7% PST. Pick "Restaurant" for a meal and "Store" for a purchase. Alcohol still carries a 10% PST, which TaxTip does not count since it does not see your itemized bill.</p>
+    <h3>Tip before or after tax?</h3>
+    <p>By default, TaxTip calculates the tip on the pre-tax amount. A switch lets you calculate it on the tax-included total.</p>
+    <p class="muted">TaxTip gives an estimate. It is not tax advice.</p>
+  </div>
+</main>
+</body>
+</html>
